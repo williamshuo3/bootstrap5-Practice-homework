@@ -1,0 +1,25 @@
+.bnner-img {
+  background-image: url("/img/banner.png");
+  height: 288px;
+  margin-bottom: 100px;
+  background-position: bottom center;
+}
+
+.service-img {
+  width: auto;
+}
+
+@media screen and (max-width: 990px) {
+  .bnner-img {
+    background-image: url("/img/banner_service-sm@2x.png");
+    width: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .form-background {
+    width: 75%;
+  }
+}/*# sourceMappingURL=bnner.css.map */

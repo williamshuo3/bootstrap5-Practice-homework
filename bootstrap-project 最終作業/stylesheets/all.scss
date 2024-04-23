@@ -1,0 +1,13 @@
+@import "./node_modules/bootstrap/scss/functions";
+
+@import "./stylesheets/helpers/variables";
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+
+//components
+@import"./components/bnner";
+@import"./components/btn";
+@import"./components/gradient-overlay";
+@import"./components/nidex";
+@import"./components/pet-adoption-card";
